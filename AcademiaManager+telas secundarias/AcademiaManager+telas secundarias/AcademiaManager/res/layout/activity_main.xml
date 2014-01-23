@@ -10,7 +10,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView_AcademiaManager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -18,7 +18,7 @@
         android:textSize="28dp" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/adicionar_treino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
@@ -28,30 +28,30 @@
         android:text="Adicionar Treino" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/visualizar_historico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/copiar_rotina"
         android:layout_centerHorizontal="true"
         android:onClick="VerHistorico"
         android:text="Visualizar Histórico" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/copiar_rotina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/adicionar_treino"
         android:layout_centerHorizontal="true"
         android:onClick="CopiarRotinaDeTreinos"
         android:text="Copiar Rotina de Treinos" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/ajuda"
         style="@style/AppTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_toRightOf="@+id/adicionar_treino"
         android:onClick="Ajuda"
         android:text="Precisa de Ajuda?"
         android:textSize="9dp" />
