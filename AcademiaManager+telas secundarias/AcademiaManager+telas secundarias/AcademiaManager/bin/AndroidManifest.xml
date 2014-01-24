@@ -16,11 +16,7 @@
         <activity
             android:name="com.example.academiamanager.MainActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name="com.example.academiamanager.CopiarRotinaDeTreino"
@@ -29,6 +25,11 @@
         <activity
             android:name="com.example.academiamanager.AdicionarTreinoActivity"
             android:label="@string/title_activity_adicionar_treino" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.academiamanager.CopiarRotinaDeTreinosActivity"
