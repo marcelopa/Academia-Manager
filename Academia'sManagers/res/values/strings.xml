@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Academia\'s Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_adicionar_treino">Treino</string>
+    <string name="title_activity_calcular_imc">IMC</string>
+
+    <!-- ACTIVITY PRINCIPAL -->
+    <string name="label_botao_adicionar_treino">Adicionar Treino</string>
+    <string name="label_botao_visualizar_historico">Visualizar Histórico</string>
+    <string name="label_botao_importar_treino">Importar Treino</string>
+    <string name="label_botao_calcular_imc">Calcular IMC</string>
+    <string name="label_botao_ajuda">Ajuda</string>
+
+    <!-- ACTIVITY ADICIONAR TREINO -->
+    <string name="label_textview_nome_treino">Nome do Treino:</string>
+    <string name="label_hint_nome_treino">Informe o nome do treino</string>
+    <string name="label_textview_data">Data:</string>
+    <string name="label_hint_data">Informe a data do treino</string>
+    <string name="label_textview_exercicio">Informe o Exercício:</string>
+    <string name="label_textview_minutos">Minutos:</string>
+    <string name="label_hint_minutos">Minutos</string>
+    <string name="label_botao_prosseguir">Prosseguir</string>
+
+    <!-- ACTIVITY IMC -->
+    <string name="label_textview_peso">Peso:</string>
+    <string name="label_hint_peso">Informe o seu peso</string>
+    <string name="label_textview_altura">Altura:</string>
+    <string name="label_hint_altura">Informe a sua altura</string>
+    <string name="label_botao_calcular">Calcular</string>
+    <string name="label_hint_IMC">IMC</string>
+    <string name="title_activity_importar_treino">Importar Treino</string>
+    <string name="title_activity_visualizar_historico">Histórico</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdicionarTreinoActivity" >
+
+    <TextView
+        android:id="@+id/textview_nome_treino"
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_textview_nome_treino" />
+
+    <EditText
+        android:id="@+id/edittext_nome_treino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_hint_nome_treino" />
+
+    <TextView
+        android:id="@+id/textview_data"
+        style="@style/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_textview_data" />
+
+    <EditText
+        android:id="@+id/edittext_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_hint_data" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_exercicio"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/label_textview_exercicio" />
+
+            <Spinner
+                android:id="@+id/spinner_exercicios"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview_minutos"
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_textview_minutos" />
+
+            <EditText
+                android:id="@+id/edittext_minutos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/label_hint_minutos" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botao_prosseguir"
+        style="@style/botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/label_botao_prosseguir" />
+
+</LinearLayout>
